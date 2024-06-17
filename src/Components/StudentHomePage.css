@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .student-home-page {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #800000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav a {
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    min-height: calc(100vh - 3rem); /* Adjust height to ensure bottom cards stick to the bottom */
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto; /* Push bottom-section to the bottom */
+  }
+  
+  .bottom-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto; /* Ensure it stays at the bottom */
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .edit-profile-card {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .edit-profile-card .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .edit-profile-card .profile-image {
+    border-radius: 50%;
+    margin-left: 1rem;
+  }
+  
+  .faq-card,
+  .it-support-card,
+  .important-links-card {
+    width: 20%;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p, .card ul {
+    margin: 1rem 0;
+  }
+  
+  .card ul {
+    padding-left: 20px;
+  }
+  
+  .card ul li {
+    list-style-type: disc;
+  }
+  
+  .card ul li a {
+    color: #800000;
+    text-decoration: none;
+  }
+  
+  .card ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .card button {
+    padding: 0.5rem 1rem;
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .card button:hover {
+    background-color: #600000;
+  }
+  
